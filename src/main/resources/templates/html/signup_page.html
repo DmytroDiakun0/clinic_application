@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/static/css/signup_page.css" th:href="@{/css/signup_page.css}">
+        <link rel="stylesheet" href="/static/css/form.css" th:href="@{/css/form.css}">
+        <title>Авторизація</title>
+    </head>
+    <body>
+        <div class="signup-form center">
+            <img id="logo" src="static/img/hospital_logo.png" th:src="@{/img/hospital_logo.png}">
+            <div class="form-container">
+                <div class="form-name">Реєстрація</div>
+                <form>
+                    <div class="form-element">
+                        <label class="form-element-label">Номер телефону</label>
+                        <input class="form-element-input" type="text" placeholder="Введіть номер телефону">
+                    </div>
+                    <div class="form-element">
+                        <label class="form-element-label">Пароль</label>
+                        <input class="form-element-input" type="text" placeholder="Введіть пароль">
+                    </div>
+                    <div class="form-element">
+                        <label class="form-element-label">Прізвище</label>
+                        <input class="form-element-input" type="text" placeholder="Введіть прізвище">
+                    </div>
+                    <div class="form-element">
+                        <label class="form-element-label">Ім'я</label>
+                        <input class="form-element-input" type="text" placeholder="Введіть ім'я">
+                    </div>
+                    <div class="form-element">
+                        <label class="form-element-label">По батькові</label>
+                        <input class="form-element-input" type="text" placeholder="Введіть по батькові">
+                    </div>
+                    <div class="form-element">
+                        <input class="form-element-submit" type="submit" value="Зареєструватися">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

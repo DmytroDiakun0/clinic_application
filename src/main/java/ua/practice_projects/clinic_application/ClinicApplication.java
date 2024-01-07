@@ -15,6 +15,7 @@ public class ClinicApplication implements WebMvcConfigurer {
 	@Override
 	public void addViewControllers(ViewControllerRegistry registry) {
 		registry.addViewController("/login").setViewName("html/login_page");
+		registry.addViewController("/signup").setViewName("html/signup_page");
 	}
 
 }

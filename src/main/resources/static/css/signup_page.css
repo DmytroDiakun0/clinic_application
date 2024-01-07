@@ -3,21 +3,21 @@
     margin-right: auto;
 }
 
-.login-form {
+.signup-form {
     width: 515px;
-    margin-top: 150px;
+    margin-top: 90px;
 }
 
-.login-form .form-container {
+.signup-form .form-container {
     width: 375px;
-    height: 220px;
+    height: 410px;
 }
 
-.login-form .form-name {
-    width: 70px;
+.signup-form .form-name {
+    width: 140px;
 }
 
-.login-form #logo {
+.signup-form #logo {
     display: block;
     width: 200px;
     height: auto;
