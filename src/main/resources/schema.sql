@@ -26,7 +26,7 @@ create table if not exists appointment (
 );
 
 create table if not exists schedule (
-    id identity
+    id identity,
     doctor_id bigint not null,
     office_id bigint not null,
     start_date date not null,
@@ -35,7 +35,7 @@ create table if not exists schedule (
     end_time json not null
 );
 
-alter table appointment add foreign key (doctor_id) references app_user(id)
-alter table appointment add foreign key (patient_id) references app_user(id)
-alter table schedule add foreign key (doctor_id) references app_user(id)
-alter table schedule add foreign key (office_id) references office(id)
+alter table appointment add foreign key (doctor_id) references app_user(id);
+alter table appointment add foreign key (patient_id) references app_user(id);
+alter table schedule add foreign key (doctor_id) references app_user(id);
+alter table schedule add foreign key (office_id) references office(id);

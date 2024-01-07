@@ -1,8 +1,8 @@
 package ua.practice_projects.clinic_application.models;
 
 import jakarta.persistence.*;
-import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -20,15 +20,15 @@ public class Appointment {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
 
-    @Column(name = "doctor_id")
-    @Min(0)
+    @JoinColumn(name = "doctor_id")
+    @NotNull
     @ManyToOne
-    private int doctorId;
+    private User doctorId;
 
-    @Column(name = "patient_id")
-    @Min(0)
+    @JoinColumn(name = "patient_id")
+    @NotNull
     @ManyToOne
-    private int patientId;
+    private User patientId;
 
     @Column(name = "appointment_date")
     @NotBlank
