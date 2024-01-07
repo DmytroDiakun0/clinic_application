@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/static/css/login_page.css" th:href="@{/css/login_page.css}">
+        <link rel="stylesheet" href="/static/css/form.css" th:href="@{/css/form.css}">
+        <title>Авторизація</title>
+    </head>
+    <body>
+        <div class="login-form center">
+            <img id="logo" src="static/img/hospital_logo.png" th:src="@{/img/hospital_logo.png}">
+            <div class="form-container">
+                <div class="form-name">Вхід</div>
+                <form>
+                    <div class="form-element">
+                        <label class="form-element-label">Номер телефону</label>
+                        <input class="form-element-input" type="text" placeholder="Введіть номер телефону">
+                    </div>
+                    <div class="form-element">
+                        <label class="form-element-label">Пароль</label>
+                        <input class="form-element-input" type="text" placeholder="Введіть пароль">
+                    </div>
+                    <div class="form-element">
+                        <input class="form-element-submit" type="submit" value="Увійти">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

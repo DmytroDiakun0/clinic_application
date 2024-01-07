@@ -1,4 +1,4 @@
-package ua.practice_projects.clinic_application;
+package ua.practice_projects.clinic_application.models;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.Data;

@@ -1,0 +1,15 @@
+.center {
+    width: 515px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login-form #logo {
+    display: block;
+    width: 200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}

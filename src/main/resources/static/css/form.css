@@ -1,0 +1,48 @@
+.form-container {
+    width: 375px;
+    height: 220px;
+    border: 3px solid green;
+    border-radius: 40px;
+    padding: 70px;
+}
+
+.form-name {
+    display: block;
+    width: 70px;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.form-element {
+    margin-bottom: 20px;
+}
+
+.form-element .form-element-label {
+    display: inline-block;
+    width: 140px;
+    margin-right: 20px;
+    font-size: 18px;
+    text-align: right;
+}
+
+.form-element .form-element-input {
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.form-element .form-element-submit {
+    display: block;
+    width: 150px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+}
